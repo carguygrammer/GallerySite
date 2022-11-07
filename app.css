@@ -788,17 +788,32 @@ footer {
     }
 
     .section__intro {
-        padding: 24em 0;
+        padding: 30em 0;
+    }
+
+    .text-box__heading-1 {
+        font-size: 2.5rem;
+        /* margin-top: -1.5em; */
+
     }
 
     .section-about {
-        padding: 15em 0;
+        padding: 30em 0;
     }
 
     .section-gallery {
-        padding: 10em 0;
+        padding: 30em 0;
+    }
+
+    .text-box__grid-gallery {
+        width: 80%;
+        margin: 0 auto;
     }
 }
+
+/* @media screen and (min-height: 800px) {
+
+} */
 
 @media screen and (min-width:650px) {
     html {
