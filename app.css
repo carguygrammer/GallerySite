@@ -732,8 +732,8 @@ footer {
     html {
         font-size: 50%;
     }
-    
-     #responsive-nav-menu h3 {
+
+    #responsive-nav-menu h3 {
         font-size: 2em;
     }
 
@@ -741,7 +741,6 @@ footer {
         font-size: 2.5em;
         margin: 1.5em 0;
     }
-
 
     .section__intro {
         padding: 25em 0 15em 0;
@@ -797,10 +796,12 @@ footer {
     html {
         font-size: 60%;
     }
+
     #responsive-nav-menu li {
         font-size: 2em;
         margin: .5em 0;
     }
+
 
     .text-box__mosaic {
         height: auto;
