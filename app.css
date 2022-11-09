@@ -87,7 +87,6 @@ body {
     padding: 2em;
     position: fixed;
     right: -20rem;
-    /* right: 0; */
     top: 0;
     z-index: 3;
     transition: all .5s ease;
@@ -111,7 +110,6 @@ body {
 }
 
 #responsive-nav-menu a:hover {
-    /* text-decoration: none; */
     color: rgb(213, 213, 213)
 }
 
@@ -141,7 +139,6 @@ body {
     right: 0%;
     width: 50%;
     transform: translate(-50%, 0);
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -176,8 +173,6 @@ body {
 /* SECTION INTRO SECTION INTRO  */
 .section {
     margin-bottom: 1.5em;
-    /* height: 100vh; */
-
 }
 
 .section__intro {
@@ -193,8 +188,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* border: 1px solid wheat; */
-
 }
 
 .text-box__mosaic .box {
@@ -298,8 +291,6 @@ body {
     text-align: center;
     letter-spacing: 2px;
     padding: 2em;
-    /* margin-top: -4em; */
-
 }
 
 .text-box__heading-1 h1 {
@@ -308,7 +299,6 @@ body {
 
 .tb-heading-span-1 {
     color: rgb(176, 145, 82);
-
 }
 
 .tb-heading-span-2 {
@@ -353,14 +343,12 @@ body {
     margin: 2em;
     margin: 0 auto;
     margin-bottom: 3em;
-    /* border: 1px solid white; */
 }
 
 .me-info {
     width: calc(100%/3);
     height: 100%;
     margin: 0 1em;
-    /* border: 1px solid rgb(7, 68, 68); */
     border-radius: 5px;
     background-color: rgba(196, 147, 91, 0.623);
     background-color: rgba(47, 42, 42, 0.698);
@@ -453,12 +441,6 @@ body {
     height: 100%;
 }
 
-/* .boxs img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
 .grid-subtitle {
     grid-column: 1 / 5;
     justify-content: center;
@@ -477,10 +459,6 @@ body {
 .grid-one-sub {
     border-bottom: .3em solid rgb(93, 194, 103);
 }
-
-/* .grid-one-sub:hover {
-    border-bottom: 1em solid rgb(120, 233, 132);
-} */
 
 .grid-one-sub h3 {
     color: rgb(93, 194, 103);
@@ -520,9 +498,6 @@ body {
     color: rgb(176, 145, 82);
 }
 
-/* .grid-two-sub:hover {
-    border-bottom: 1em solid rgb(176, 145, 82);
-} */
 
 .grid-box5 {
     grid-column: 1 / 2;
@@ -553,18 +528,12 @@ body {
     color: rgb(112, 190, 231);
 }
 
-/* .grid-three-sub:hover {
-    border-bottom: 1em solid rgb(112, 190, 231);
-} */
-
 .grid-box8 {
-    /* background-image: url("pictures/big-plant-unfold-min.JPEG"); */
     grid-column: 1 / 2;
     grid-row: 2 / 5;
 }
 
 .grid-box9 {
-    /* background-image: url("pictures/single-flower-min.jpg"); */
     grid-column: 2 / 5;
     grid-row: 2/ 5;
 }
@@ -583,10 +552,6 @@ body {
     color: rgb(132, 97, 185);
 }
 
-/* .grid-four-sub:hover {
-    border-left: 1em solid rgb(132, 97, 185);
-} */
-
 .grid-box10 {
     grid-row: 2;
     grid-column: 1 / 5;
@@ -602,10 +567,6 @@ body {
     grid-column: 1 / 5;
 }
 
-/* .gallery-side-2 {
-    right: -14rem;
-} */
-
 .grid-five-sub {
     border-right: .3em solid rgb(186, 179, 44);
     height: 50%;
@@ -615,10 +576,6 @@ body {
 .grid-five-sub h3 {
     color: rgb(186, 179, 44);
 }
-
-/* .grid-five-sub:hover {
-    border-right: 1em solid rgb(186, 179, 44);
-} */
 
 .grid-box13 {
     grid-row: 2;
@@ -638,7 +595,6 @@ body {
 .text-box__gallery-btn {
     width: 100%;
     margin-top: 5em;
-    /* top: 72rem; */
     justify-content: center;
 }
 
@@ -777,12 +733,8 @@ footer {
         font-size: 50%;
     }
 
-    /* .section__intro {
-        padding: 12em 0;
-    } */
-
     .section__intro {
-        padding: 32em 0;
+        padding: 25em 0 10em 0;
     }
 
     .text-box__heading-1 {
@@ -791,11 +743,11 @@ footer {
     }
 
     .section-about {
-        padding: 32em 0;
+        padding: 20em 0;
     }
 
     .section-gallery {
-        padding: 32em 0;
+        padding: 12em 0;
     }
 
     .text-box__grid-gallery {
@@ -830,10 +782,6 @@ footer {
             margin: 0 auto;
         } */
 }
-
-/* @media screen and (min-height: 800px) {
-
-} */
 
 @media screen and (min-width:650px) {
     html {
@@ -1015,28 +963,27 @@ footer {
 
     .section-gallery {
         position: relative;
+        padding: 5em 0;
     }
 
     .text-box__grid-gallery {
-        padding: 0;
         width: 50%;
-        margin: 0 auto;
-        margin-bottom: 2em;
-        font-size: 2rem;
+        /* margin-bottom: 2em; */
+        font-size: 1.5rem;
     }
 
     .gallery-side {
         display: none;
     }
 
-    .text-box__contact {
-        width: 40%;
-        margin: 0 auto;
-    }
-
     .text-box__gallery-btn button {
         font-size: 1.6rem;
         width: 11em;
+    }
+
+    .text-box__contact {
+        width: 40%;
+        margin: 0 auto;
     }
 
 }
