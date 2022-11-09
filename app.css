@@ -766,30 +766,10 @@ footer {
 }
 
 @media screen and (min-width:450px) {
-    html {
-        font-size: 50%;
+
+    .section__intro {
+        padding: 25em 0 20em 0;
     }
-
-    /* .section__intro {
-            padding: 32em 0;
-        }
-
-        .text-box__heading-1 {
-            font-size: 2.5rem;
-            /* margin-top: -1.5em; *
-
-    /* .section-about {
-            padding: 32em 0;
-        }
-
-        .section-gallery {
-            padding: 32em 0;
-        }
-
-        .text-box__grid-gallery {
-            width: 80%;
-            margin: 0 auto;
-        } */
 }
 
 @media screen and (min-width:650px) {
@@ -802,25 +782,51 @@ footer {
         margin: .5em 0;
     }
 
+    .section__intro {
+        padding: 27em 0 12em 0;
+    }
 
     .text-box__mosaic {
+        width: 80%;
         height: auto;
         margin: 0 auto;
     }
 
     .text-box__heading-1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
+    .btn-heading-1 {
+        font-size: 1.6rem;
+    }
+
+    .section-about {
+        padding: 21em 0px 14em;
+    }
 
     .text-box__me {
         width: 80%;
-        height: 5rem;
+        height: 7rem;
     }
 
+    .me-info p {
+        font-size: 1.8em;
+    }
 
     .text-box__about {
-        height: 12rem;
+        height: 17rem;
+    }
+
+    .text-box__about h3 {
+        font-size: 2.5rem;
+    }
+
+    .text-box__about p {
+        font-size: 2rem;
+    }
+
+    .section-gallery {
+        padding: 10em 0px 10em;
     }
 
 }
@@ -830,6 +836,10 @@ footer {
         font-size: 70%;
     }
 
+    .section__intro {
+        padding: 15em 0px 7em;
+    }
+
     .text-box__mosaic .box {
         width: 6em;
         height: 10rem;
@@ -837,27 +847,30 @@ footer {
     }
 
     .text-box__heading-1 {
-        font-size: 2rem;
+        width: 85%;
+        margin: 0 auto;
+        font-size: 2.5rem;
+        margin-bottom: 1em;
+
     }
 
     .btn-heading-1 {
         font-size: 1.6rem;
     }
 
-
-    .text-box__me {
-        width: 70%;
-        height: 5rem;
-    }
-
-    .me-info p {
-        font-size: 1.8rem;
+    .section-about {
+        padding: 8em 0px 12em;
     }
 
     .text-box__pro-pic {
-        height: 17em;
-        width: 17rem;
+        height: 25em;
+        width: 25rem;
+        margin-top: 8em;
         margin-bottom: 3em;
+    }
+
+    .me-info p {
+        font-size: 2.2rem;
     }
 
     .text-box__about {
@@ -875,10 +888,14 @@ footer {
         font-size: 1.8rem;
     }
 
+    .section-gallery {
+        padding: 2em 0 6em 0;
+    }
+
     .text-box__grid-gallery {
         padding: 0;
         width: 60%;
-        margin: 0 auto;
+        margin: -5px auto;
     }
 
     .text-box__contact {
@@ -917,31 +934,15 @@ footer {
     }
 
     .section__intro {
-        padding: 13em 0em;
-    }
-
-    .text-box__mosaic {
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .text-box__mosaic .box {
-        width: 6em;
-        height: 10rem;
-        font-size: 2rem;
+        padding: 20em 0 14em 0;
     }
 
     .text-box__heading-1 {
-        font-size: 2.5rem;
-
-    }
-
-    .btn-heading-1 {
-        font-size: 1.6rem;
+        padding: 0;
     }
 
     .section-about {
-        padding: 12em 0;
+        padding: 8em 0 14em 0;
     }
 
     .text-box__me {
@@ -949,29 +950,29 @@ footer {
         height: 5rem;
     }
 
+    .me-info {
+        padding: 4em;
+    }
+
     .me-info p {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .text-box__pro-pic {
-        height: 17em;
-        width: 17rem;
-        margin-bottom: 3em;
+        margin-bottom: 8em;
     }
 
     .text-box__about {
-        width: 80%;
-        height: 15rem;
-        margin-top: 0;
+        height: 20rem;
     }
 
 
     .text-box__about h3 {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .text-box__about p {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
 
@@ -981,9 +982,8 @@ footer {
     }
 
     .text-box__grid-gallery {
-        width: 50%;
-        /* margin-bottom: 2em; */
-        font-size: 1.5rem;
+        width: 60%;
+        font-size: 1.2rem;
     }
 
     .gallery-side {
@@ -992,12 +992,11 @@ footer {
 
     .text-box__gallery-btn button {
         font-size: 1.6rem;
-        width: 11em;
+        width: 12em;
     }
 
     .text-box__contact {
-        width: 40%;
-        margin: 0 auto;
+        width: 60%;
     }
 
 }
