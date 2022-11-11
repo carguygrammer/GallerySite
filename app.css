@@ -1155,3 +1155,229 @@ footer {
         font-size: 1.6rem;
     }
 }
+
+/* MEDIA QUEREIS WITH TALL PHONE HEIGHTS  */
+@media screen and (min-width: 350px) and (min-height: 820px) {
+    .section__intro {
+        padding: 25em 0px 22em;
+    }
+
+    .section-about {
+        padding: 21em 0px 25em;
+    }
+
+    .section-gallery {
+        padding: 20em 0px 17em;
+    }
+}
+
+@media screen and (min-width: 350px) and (min-height: 860px) {
+    .section__intro {
+        padding: 18em 0px 20em;
+    }
+
+    .text-box__mosaic {
+        height: 45rem;
+    }
+
+    .text-box__mosaic .box {
+        width: 14rem;
+        height: 12rem;
+        margin: 0.5em;
+        font-size: 2rem;
+
+    }
+
+    .btn-heading-1 {
+        font-size: 1.8rem;
+    }
+
+    .section-about {
+        padding: 15em 0px 20em;
+    }
+
+    .me-info p {
+        font-size: 1.8rem;
+    }
+
+    .text-box__pro-pic {
+
+        height: 30em;
+        width: 30rem;
+        padding: 2em;
+        border-radius: 1em;
+        margin: 0px auto 2em;
+        margin-bottom: 7em;
+    }
+
+    .text-box__about {
+        height: 30rem;
+        padding: 4em;
+    }
+
+    .text-box__about h3 {
+        font-size: 2.5rem;
+    }
+
+    .text-box__about p {
+        font-size: 2em;
+    }
+
+    .section-gallery {
+        padding: 15em 0px 12em;
+    }
+
+    .text-box__grid-gallery:nth-child(1) {
+        height: 35rem;
+    }
+
+    .text-box__grid-gallery {
+        height: 21rem;
+    }
+}
+
+/* MEDIA QUERIRES WITH TALL TABS HEIGHTS  */
+
+@media screen and (min-width: 800px) and (min-height: 1100px) {
+
+    #responsive-nav-menu li {
+        font-size: 2em;
+        margin: .5em 0;
+    }
+
+    .section__intro {
+        padding: 20em 0 16em 0;
+    }
+
+    .text-box__mosaic {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .text-box__mosaic .box {
+        width: 20rem;
+        height: 24rem;
+        height: 20rem;
+        font-size: 3rem;
+        margin: 0.5em;
+    }
+
+    .text-box__heading-1 {
+        font-size: 3rem;
+    }
+
+    .btn-heading-1 {
+        font-size: 2.2rem;
+    }
+
+    .section-about {
+        padding: 20em 0px 10em;
+    }
+
+    .text-box__me {
+        width: 95%;
+        height: 15rem;
+    }
+
+    .me-info p {
+        font-size: 2.8em;
+    }
+
+    .text-box__pro-pic {
+        top: 25em;
+        height: 54em;
+        width: 54rem;
+        padding: 2em;
+        background: none;
+    }
+
+    .text-box__about {
+        height: 30rem;
+    }
+
+    .text-box__about h3 {
+        font-size: 3.5rem;
+    }
+
+    .text-box__about p {
+        font-size: 2.8rem;
+    }
+
+    .section-gallery {
+        padding: 15em 0 22em 0;
+    }
+
+    .text-box__grid-gallery:nth-child(1) {
+        height: 35rem;
+    }
+
+    .text-box__grid-gallery {
+        height: 25rem;
+    }
+
+    .grid-subtitle h3 {
+        font-size: 2em;
+    }
+
+    .boxs {
+        font-size: 1.6em;
+    }
+
+    .text-box__gallery-btn button {
+        width: 30%;
+        font-size: 2em;
+        padding: 1em;
+    }
+
+    .grid-contact p {
+        font-size: 2.2rem;
+    }
+
+
+    .text-box__contact {
+        padding: 0.5em 10em;
+    }
+
+    .text-box__legal p {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 900px) and (min-height: 1350px) {
+    .section__intro {
+        padding: 26em 0 36em 0;
+    }
+
+    .text-box__heading-1 {
+        font-size: 4rem;
+    }
+
+    .btn-heading-1 {
+        font-size: 2.5rem;
+    }
+
+    .section-about {
+        padding: 20em 0px 18em;
+    }
+
+    .text-box__about {
+        margin: 5em auto;
+    }
+
+    .section-gallery {
+        padding: 20em 0px 25em;
+    }
+
+    .text-box__grid-gallery:nth-child(1) {
+        height: 40rem;
+    }
+
+    .text-box__grid-gallery {
+        height: 30rem;
+    }
+
+    .boxs {
+        font-size: 1.8em;
+    }
+}
