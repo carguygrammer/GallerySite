@@ -1246,7 +1246,7 @@ footer {
     }
 
     .section__intro {
-        padding: 20em 0 16em 0;
+        padding: 28em 0 16em 0;
     }
 
     .text-box__mosaic {
@@ -1256,11 +1256,11 @@ footer {
     }
 
     .text-box__mosaic .box {
-        width: 20rem;
-        height: 24rem;
+        width: 18rem;
         height: 20rem;
+        /* height: 20rem; */
         font-size: 3rem;
-        margin: 0.5em;
+        margin: 0.2em;
     }
 
     .text-box__heading-1 {
@@ -1286,8 +1286,8 @@ footer {
 
     .text-box__pro-pic {
         top: 25em;
-        height: 54em;
-        width: 54rem;
+        height: 34em;
+        width: 34rem;
         padding: 2em;
         background: none;
     }
@@ -1305,7 +1305,7 @@ footer {
     }
 
     .section-gallery {
-        padding: 15em 0 22em 0;
+        padding: 15em 0 18em 0;
     }
 
     .text-box__grid-gallery:nth-child(1) {
@@ -1313,7 +1313,7 @@ footer {
     }
 
     .text-box__grid-gallery {
-        height: 25rem;
+        height: 23rem;
     }
 
     .grid-subtitle h3 {
