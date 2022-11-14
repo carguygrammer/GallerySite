@@ -96,6 +96,11 @@ body {
     font-size: 2rem;
     color: white;
     padding-bottom: 1em;
+    display: inline-block;
+}
+
+#responsive-nav-menu h3:hover {
+    color: rgb(140, 136, 136);
 }
 
 #responsive-nav-menu li {
@@ -728,7 +733,8 @@ footer {
 
 }
 
-@media screen and (min-width:350px) {
+/* 350px*/
+@media screen and (min-width: 21.875em) {
     html {
         font-size: 50%;
     }
@@ -765,399 +771,9 @@ footer {
     }
 }
 
-@media screen and (min-width:450px) {
-
-    .section__intro {
-        padding: 25em 0 20em 0;
-    }
-}
-
-@media screen and (min-width:650px) {
-    html {
-        font-size: 60%;
-    }
-
-    #responsive-nav-menu li {
-        font-size: 2em;
-        margin: .5em 0;
-    }
-
-    .section__intro {
-        padding: 27em 0 12em 0;
-    }
-
-    .text-box__mosaic {
-        width: 80%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .text-box__heading-1 {
-        font-size: 2.2rem;
-    }
-
-    .btn-heading-1 {
-        font-size: 1.6rem;
-    }
-
-    .section-about {
-        padding: 21em 0px 14em;
-    }
-
-    .text-box__me {
-        width: 80%;
-        height: 7rem;
-    }
-
-    .me-info p {
-        font-size: 1.8em;
-    }
-
-    .text-box__about {
-        height: 17rem;
-    }
-
-    .text-box__about h3 {
-        font-size: 2.5rem;
-    }
-
-    .text-box__about p {
-        font-size: 2rem;
-    }
-
-    .section-gallery {
-        padding: 10em 0px 10em;
-    }
-
-}
-
-@media screen and (min-width:950px) {
-    html {
-        font-size: 70%;
-    }
-
-    .section__intro {
-        padding: 15em 0px 7em;
-    }
-
-    .text-box__mosaic .box {
-        width: 6em;
-        height: 10rem;
-        font-size: 2rem;
-    }
-
-    .text-box__heading-1 {
-        width: 85%;
-        margin: 0 auto;
-        font-size: 2.5rem;
-        margin-bottom: 1em;
-
-    }
-
-    .btn-heading-1 {
-        font-size: 1.6rem;
-    }
-
-    .section-about {
-        padding: 8em 0px 12em;
-    }
-
-    .text-box__pro-pic {
-        height: 25em;
-        width: 25rem;
-        margin-top: 8em;
-        margin-bottom: 3em;
-    }
-
-    .me-info p {
-        font-size: 2.2rem;
-    }
-
-    .text-box__about {
-        width: 80%;
-        height: 15rem;
-        margin-top: 0;
-    }
-
-
-    .text-box__about h3 {
-        font-size: 2rem;
-    }
-
-    .text-box__about p {
-        font-size: 1.8rem;
-    }
-
-    .section-gallery {
-        padding: 2em 0 6em 0;
-    }
-
-    .text-box__grid-gallery {
-        padding: 0;
-        width: 60%;
-        margin: -5px auto;
-    }
-
-    .text-box__contact {
-        width: 50%;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    html {
-        font-size: 80%;
-    }
-
-    body {
-        margin: 0 3rem;
-    }
-
-    .site-logo {
-        top: 2rem;
-        left: 5rem;
-    }
-
-    #hamburger {
-        right: 5rem;
-        top: 2rem;
-        width: 3.5rem;
-        height: 3.5rem;
-    }
-
-    #responsive-nav-menu h3 {
-        font-size: 2.5rem;
-    }
-
-    #responsive-nav-menu li {
-        font-size: 2rem;
-    }
-
-    .section__intro {
-        padding: 20em 0 14em 0;
-    }
-
-    .text-box__heading-1 {
-        padding: 0;
-    }
-
-    .section-about {
-        padding: 8em 0 14em 0;
-    }
-
-    .text-box__me {
-        width: 70%;
-        height: 5rem;
-    }
-
-    .me-info {
-        padding: 4em;
-    }
-
-    .me-info p {
-        font-size: 2rem;
-    }
-
-    .text-box__pro-pic {
-        margin-bottom: 8em;
-    }
-
-    .text-box__about {
-        height: 20rem;
-    }
-
-
-    .text-box__about h3 {
-        font-size: 2.3rem;
-    }
-
-    .text-box__about p {
-        font-size: 2rem;
-    }
-
-
-    .section-gallery {
-        position: relative;
-        padding: 5em 0;
-    }
-
-    .text-box__grid-gallery {
-        width: 60%;
-        font-size: 1.2rem;
-    }
-
-    .gallery-side {
-        display: none;
-    }
-
-    .text-box__gallery-btn button {
-        font-size: 1.6rem;
-        width: 12em;
-    }
-
-    .text-box__contact {
-        width: 60%;
-    }
-
-}
-
-@media screen and (min-width:1900px) {
-    html {
-        font-size: 90%;
-    }
-
-    html {
-        font-size: 80%;
-    }
-
-    body {
-        margin: 0 3rem;
-    }
-
-    .site-logo {
-        top: 2rem;
-        left: 5rem;
-    }
-
-    #hamburger {
-        right: 5rem;
-        top: 2rem;
-        width: 3.5rem;
-        height: 3.5rem;
-    }
-
-    #responsive-nav-menu h3 {
-        font-size: 2.5rem;
-    }
-
-    #responsive-nav-menu li {
-        font-size: 2rem;
-    }
-
-    .section__intro {
-        padding: 25em 10em;
-    }
-
-    .text-box__mosaic {
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .text-box__mosaic .box {
-        width: 6em;
-        height: 10rem;
-        font-size: 2rem;
-    }
-
-    .text-box__heading-1 {
-        font-size: 2.5rem;
-        margin-top: -1.5em;
-
-    }
-
-    .btn-heading-1 {
-        font-size: 1.6rem;
-    }
-
-    .section-about {
-        padding: 17em 5em;
-    }
-
-    .text-box__me {
-        width: 70%;
-        height: 5em;
-    }
-
-    .me-info {
-        height: 7em;
-    }
-
-    .me-info p {
-        font-size: 1.8rem;
-    }
-
-
-
-    .text-box__pro-pic {
-        height: 20em;
-        width: 20rem;
-        margin-bottom: 4em;
-    }
-
-    .text-box__about {
-        width: 75%;
-        height: 18rem;
-        margin-top: 0;
-    }
-
-
-    .text-box__about h3 {
-        font-size: 2rem;
-    }
-
-    .text-box__about p {
-        font-size: 1.8rem;
-    }
-
-    .section-gallery {
-        position: relative;
-    }
-
-    .text-box__grid-gallery {
-        padding: 0;
-        width: 35%;
-        margin: 0 auto;
-        margin-bottom: 2em;
-        font-size: 2rem;
-    }
-
-    .gallery-side {
-        display: grid;
-        top: 5%;
-        width: 24%;
-        height: 70rem;
-        position: absolute;
-        padding: 0 1em;
-
-    }
-
-    .gallery-side-1 {
-        left: 0;
-    }
-
-    .gallery-side-2 {
-        right: 0;
-    }
-
-    .text-box__gallery-btn button {
-        font-size: 1.8rem;
-        width: 40rem;
-    }
-
-    .text-box__contact {
-        width: 40%;
-        margin: 0 auto;
-    }
-
-    .grid-contact p {
-        font-size: 2rem;
-    }
-
-    .grid-contact a {
-        font-size: 1.8rem;
-    }
-
-    .grid-contact i {
-        font-size: 3.5rem;
-    }
-
-    .text-box__legal p {
-        font-size: 1.6rem;
-    }
-}
-
 /* MEDIA QUEREIS WITH TALL PHONE HEIGHTS  */
-@media screen and (min-width: 350px) and (min-height: 820px) {
+/* 350px x 820px*/
+@media screen and (min-width: 21.875em) and (min-height: 51.25em) {
     .section__intro {
         padding: 25em 0px 22em;
     }
@@ -1171,7 +787,8 @@ footer {
     }
 }
 
-@media screen and (min-width: 350px) and (min-height: 860px) {
+/* 350px x 860px*/
+@media screen and (min-width: 21.875em) and (min-height: 53.75em) {
     .section__intro {
         padding: 18em 0px 20em;
     }
@@ -1236,9 +853,77 @@ footer {
     }
 }
 
-/* MEDIA QUERIRES WITH TALL TABS HEIGHTS  */
+/* 450px*/
+@media screen and (min-width:28.125em) {
 
-@media screen and (min-width: 800px) and (min-height: 1100px) {
+    .section__intro {
+        padding: 25em 0 20em 0;
+    }
+}
+
+/* 650px*/
+@media screen and (min-width:40.625em) {
+    html {
+        font-size: 60%;
+    }
+
+    #responsive-nav-menu li {
+        font-size: 2em;
+        margin: .5em 0;
+    }
+
+    .section__intro {
+        padding: 27em 0 12em 0;
+    }
+
+    .text-box__mosaic {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .text-box__heading-1 {
+        font-size: 2.2rem;
+    }
+
+    .btn-heading-1 {
+        font-size: 1.6rem;
+    }
+
+    .section-about {
+        padding: 21em 0px 14em;
+    }
+
+    .text-box__me {
+        width: 80%;
+        height: 7rem;
+    }
+
+    .me-info p {
+        font-size: 1.8em;
+    }
+
+    .text-box__about {
+        height: 17rem;
+    }
+
+    .text-box__about h3 {
+        font-size: 2.5rem;
+    }
+
+    .text-box__about p {
+        font-size: 2rem;
+    }
+
+    .section-gallery {
+        padding: 10em 0px 10em;
+    }
+
+}
+
+/* MEDIA QUERIRES WITH TALL TABS HEIGHTS  */
+/* 800px x 1100px*/
+@media screen and (min-width: 50em) and (min-height: 68.75em) {
 
     #responsive-nav-menu li {
         font-size: 2em;
@@ -1343,7 +1028,8 @@ footer {
     }
 }
 
-@media screen and (min-width: 900px) and (min-height: 1350px) {
+/* 900px x 1350px*/
+@media screen and (min-width: 56.25em) and (min-height: 84.375em) {
     .section__intro {
         padding: 26em 0 36em 0;
     }
@@ -1378,5 +1064,355 @@ footer {
 
     .boxs {
         font-size: 1.8em;
+    }
+}
+
+/* 950px*/
+@media screen and (min-width:59.375em) {
+    html {
+        font-size: 70%;
+    }
+
+    .section__intro {
+        padding: 15em 0px 7em;
+    }
+
+    .text-box__mosaic .box {
+        width: 6em;
+        height: 10rem;
+        font-size: 2rem;
+    }
+
+    .text-box__heading-1 {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 2.5rem;
+        margin-bottom: 1em;
+
+    }
+
+    .btn-heading-1 {
+        font-size: 1.6rem;
+    }
+
+    .section-about {
+        padding: 8em 0px 12em;
+    }
+
+    .text-box__pro-pic {
+        height: 25em;
+        width: 25rem;
+        margin-top: 8em;
+        margin-bottom: 3em;
+    }
+
+    .me-info p {
+        font-size: 2.2rem;
+    }
+
+    .text-box__about {
+        width: 80%;
+        height: 15rem;
+        margin-top: 0;
+    }
+
+
+    .text-box__about h3 {
+        font-size: 2rem;
+    }
+
+    .text-box__about p {
+        font-size: 1.8rem;
+    }
+
+    .section-gallery {
+        padding: 2em 0 6em 0;
+    }
+
+    .text-box__grid-gallery {
+        padding: 0;
+        width: 60%;
+        margin: -5px auto;
+    }
+
+    .text-box__contact {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+/*1100px*/
+@media screen and (min-width:68.75em) {
+    html {
+        font-size: 80%;
+    }
+
+    body {
+        margin: 0 3rem;
+    }
+
+    .site-logo {
+        top: 2rem;
+        left: 5rem;
+    }
+
+    #hamburger {
+        right: 5rem;
+        top: 2rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    #responsive-nav-menu h3 {
+        font-size: 2.5rem;
+    }
+
+    #responsive-nav-menu li {
+        font-size: 2rem;
+    }
+
+    .section__intro {
+        padding: 18em 0 14em 0;
+    }
+
+    .text-box__heading-1 {
+        padding: 0;
+    }
+
+    .section-about {
+        padding: 10em 0 12em 0;
+    }
+
+    .text-box__me {
+        width: 70%;
+        height: 5rem;
+        margin-bottom: 10em;
+    }
+
+    .me-info {
+        padding: 3em;
+    }
+
+    .me-info p {
+        font-size: 2rem;
+    }
+
+    .grid {
+        display: grid;
+        margin: 0 auto;
+    }
+
+    .grid__about-me {
+        width: 80%;
+        height: auto;
+        grid-template-columns: repeat(1fr, 3);
+        grid-template-rows: 2fr;
+        grid-gap: 2em;
+        background-color: rgba(0, 0, 0, 0.301);
+        padding: 1em;
+        border-top-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+
+    .text-box__pro-pic {
+        margin: 0em;
+        height: 24em;
+        width: 24em;
+        grid-column: 1 / 2;
+        grid-row: 1;
+        background: none;
+    }
+
+    .text-box__about {
+        height: auto;
+        width: auto;
+        padding: 6em 1em 0 1em;
+        margin: 0;
+        grid-column: 2 / 3;
+        grid-row: 1;
+        background: none;
+        border: none;
+
+    }
+
+    .text-box__about h3 {
+        font-size: 2.3rem;
+        color: rgb(234, 189, 174);
+    }
+
+    .text-box__about p {
+        font-size: 1.8rem;
+        color: rgb(209, 206, 206);
+    }
+
+
+    .section-gallery {
+        position: relative;
+        padding: 5em 0;
+    }
+
+    .text-box__grid-gallery {
+        width: 50%;
+        height: 15em;
+        font-size: 1.2rem;
+    }
+
+    .gallery-side {
+        display: none;
+    }
+
+    .text-box__gallery-btn button {
+        font-size: 1.2rem;
+        width: auto;
+    }
+
+    .text-box__contact {
+        width: 60%;
+    }
+
+}
+
+/* 1900px x 1000px*/
+@media screen and (min-width:118.75em) and (min-height: 62.5em) {
+    html {
+        font-size: 90%;
+    }
+
+    body {
+        margin: 0 3rem;
+    }
+
+    .site-logo {
+        top: 2rem;
+        left: 5rem;
+    }
+
+    #hamburger {
+        right: 5rem;
+        top: 2rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    #responsive-nav-menu h3 {
+        font-size: 2.5rem;
+    }
+
+    #responsive-nav-menu li {
+        font-size: 2rem;
+    }
+
+    .section__intro {
+        padding: 25em 0 12em 0;
+    }
+
+    .text-box__mosaic {
+        height: auto;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .text-box__mosaic .box {
+        width: 8em;
+        height: 13rem;
+        font-size: 2rem;
+    }
+
+    .text-box__heading-1 {
+        font-size: 2.5rem;
+        margin-top: 1.5em;
+
+    }
+
+    .text-box__heading-1 h1 {
+        font-size: 2em;
+    }
+
+    .btn-heading-1 {
+        font-size: 1.8rem;
+    }
+
+    .section-about {
+        padding: 10em 0;
+    }
+
+
+    .text-box__me {
+        width: 70%;
+        height: 5em;
+    }
+
+    .me-info {
+        height: 7em;
+    }
+
+    .me-info p {
+        font-size: 1.8rem;
+    }
+
+    .grid__about-me {
+        height: 40em;
+    }
+
+    .text-box__pro-pic {
+        height: 30em;
+        width: 30rem;
+        margin: auto;
+    }
+
+    .text-box__about {
+        width: 75%;
+        height: 25rem;
+        margin: auto;
+    }
+
+
+    .text-box__about h3 {
+        font-size: 2.5rem;
+    }
+
+    .text-box__about p {
+        font-size: 2rem;
+    }
+
+    .section-gallery {
+        position: relative;
+    }
+
+    .text-box__grid-gallery:nth-child(1) {
+        height: 20rem;
+
+    }
+
+    .text-box__grid-gallery {
+        padding: 0;
+        width: 60%;
+    }
+
+    .text-box__gallery-btn button {
+        font-size: 1.6rem;
+        width: 20rem;
+    }
+
+    .text-box__contact {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .grid-contact p {
+        font-size: 2rem;
+    }
+
+    .grid-contact a {
+        font-size: 1.8rem;
+    }
+
+    .grid-contact i {
+        font-size: 3.5rem;
+    }
+
+    .text-box__legal p {
+        font-size: 1.6rem;
     }
 }
